@@ -290,25 +290,40 @@ footer span {
 }
 
 
+.mobileNavLinksContainer {
+    display: none;
+}
+
+
 @media(max-width: 700px) {
 
     nav {
-        position: relative; 
-    }
+        /* overflow-x: hidden; */
+    
 
+    }
+/* 
     header {
         margin-top: 0;
-    }
+    } */
 
     .navLinks {
         display: none;
     }
 
+    .mobileNavLinksContainer {
+        display: block;
+        /* border: 2px solid #000; */
+        position: relative;
+    }
+
+
     .mobileNavLinks {
+        z-index: 5;
         display: block;
         position: absolute;
         top: 0;
-        right: -150%;
+        right: -300px;
         width: 200px;
         min-height: 300px;
         padding: 30px 0;
@@ -316,9 +331,10 @@ footer span {
         background-color: #EDF5E1;
         /* border: 2px solid #0000001f; */
     }
-
+    
     .show {
-        right: 0;
+        top: -30px;
+        right: -30px;
     }
     
     .open {

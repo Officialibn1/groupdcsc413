@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+
     <link rel="stylesheet" href="index.css">
     <title>GROUP-D CSC413</title>
 </head>
@@ -24,6 +30,23 @@
                 <li><a href="#about">About</a></li>
             </ul>
         </div>
+
+        <span class="material-icons-outlined open" id="open">
+            menu
+        </span>
+
+        <div class="mobileNavLinks" id="mobileNavLinks">
+            <span class="material-icons-outlined close" id="close">
+                close 
+            </span>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!-- Header Section -->
@@ -35,6 +58,17 @@
         </div>
     </header>
 
+    
+    <!-- Aims and Objective -->
+    <section class="container">
+        <div class="aims">
+
+            <p class="lead">
+                Welcome to our website! Here, we delve into the fascinating world of web security. In today's digital landscape, ensuring the protection and integrity of online information has become paramount. Our platform aims to shed light on various aspects of web security, ranging from common threats and vulnerabilities to advanced encryption techniques and best practices. Whether you are an individual seeking to safeguard your online presence or a business looking to fortify your digital assets, we provide valuable insights and resources to help you navigate the complex realm of web security. Join us on this journey to empower yourself with the knowledge and tools necessary to stay safe and secure in the digital realm.
+            </p>
+        </div>
+    </section>
+
     <!-- Assignment Section -->
     <section class="container">
         <div class="assignment" id="projects">
@@ -43,28 +77,48 @@
             </h2>
 
             <div class="assignmentBox">
+                
+                <div class="mindMap">
 
-                <iframe class="preview" src="https://docs.google.com/document/d/17Mng7D0hjp_x7dN_yo-B-zROKxKb2JCIQ5xgqRE-8nQ/edit?usp=sharing" width="100%" height="300px" frameborder="0"></iframe>
-               
-                <iframe class="preview" src="docs/5Gtechnology.docx" width="100%" height="300px" frameborder="0"></iframe>
+                    <h3>
+                        Mind Map
+                    </h3>
 
+                    <img src="/img/mindmap.jpeg" alt="">
+                </div>
+
+                <div class="tasks">
+                    <div class="task">
+
+                        <h3>
+                            Document
+                        </h3>
+
+                        <img src="/img/prevDoc.png" alt="">
+
+                        <a href="/docs//CSC413GROUPD.docx" download>
+                            Download
+                        </a>
+                    </div>
+                    
+                    <div class="task">
+
+                        <h3>
+                            Slide
+                        </h3>
+
+                        <img src="/img/prevSlide.png" alt="">
+
+                        <a href="/docs//CSC 413 ASS GROUP D SLIDE.pptx" download>
+                            Download
+                        </a>
+                    </div>
+                </div>
 
             </div>
         </div>
     </section>
 
-    <!-- Aims and Objective -->
-    <section class="container">
-        <div class="aims">
-            <h2 class="title">
-                AIM AND OBJECTIVES
-            </h2>
-
-            <p class="lead">
-                The primary objective of this website is to provide a comprehensive understanding and knowledge about the intriguing field of Cyber Tech. With meticulous attention to detail, the website is meticulously designed to captivate and engage the reader, combining visually stunning elements with a seamless user experience. Emphasizing simplicity and elegance, the website strives to create an enjoyable and immersive journey for visitors as they explore the fascinating world of Cyber Tech.
-            </p>
-        </div>
-    </section>
 
     <!-- Members Section -->
     <section class="container">
@@ -158,11 +212,11 @@
     <section class="container">
         <div class="about" id="about">
             <h2 class="title">
-                ABOUT
+                ABOUT US
             </h2>
             
             <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus accusantium soluta deleniti, quidem facilis fugit aut! Maxime quos, perspiciatis dolorum doloribus adipisci unde ratione at esse inventore praesentium sit odio beatae ex soluta quibusdam! Nihil odio ipsa porro saepe molestiae quae non quisquam aut, a dolor sunt voluptates? Consequatur temporibus aperiam, ea magnam labore libero doloribus, minima perferendis reprehenderit unde autem repellendus voluptas quas veniam!
+                Our dedicated team of experts is deeply passionate about the subject of web security. We are driven by a shared commitment to understanding the ever-evolving threats and challenges that exist in the digital world. With a relentless curiosity and a genuine love for what we do, we explore the intricate details of web security to provide you with accurate, up-to-date information and insights. We believe that everyone should have the opportunity to navigate the online landscape with confidence and peace of mind. Rest assured that our team's enthusiasm and expertise will shine through as we delve into the depths of web security, sharing our knowledge and empowering you to protect yourself in the digital realm.
             </p>
         </div>
     </section>
@@ -173,5 +227,7 @@
             &COPY;GROUP D CSC413 2018 - 2023 COMPUTER SCIENCE, IBBUL CHAPTER.
         </span>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
